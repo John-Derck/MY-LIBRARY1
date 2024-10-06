@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./css/challenge.css" >
+</head>
+<body>
+    <div class="container">
+        <h1>မြို့များ၏ မိုးလေဝသ အခြေအနေများ</h1>
+        
+        <div class="search-section">
+            <input type="text" id="cityInput" placeholder="မြို့နာမည် ရိုက်ထည့်ပါ">
+            <button id="searchBtn">ရှာဖွေရန်</button>
+        </div>
+        
+        <div id="currentWeather" class="weather-section">
+            <h2 id="cityName"></h2>
+            <p id="date"></p>
+            <img id="weatherIcon" src="./images/weather02-512.webp" alt="Weather Icon">
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+            <p id="uvIndex"></p>
+        </div>
+
+        <div id="futureWeather" class="weather-section">
+            <h2>5 ရက်မြန်မာ့ မိုးလေဝသ</h2>
+            <div id="forecast" class="forecast"></div>
+        </div>
+        
+        <div id="searchHistory" class="history-section">
+            <h2>ရှာဖွေမှုမှတ်တမ်း</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+
+    <script src="./script/challenge.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Max Num</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.0/mocha.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.0/mocha.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.4/chai.min.js"></script>
+</head>
+<!-- OPEN THIS FILE IN YOUR WEB BROWSER TO SEE THE TEST RESULTS
+DO NOT MODIFY THIS FILE -->
+<body>
+    <div id="mocha">
+        <ul id="mocha-stats">
+            <li class="progress">
+                <canvas width="40" height="40"></canvas>
+            </li>
+            <li class="passes">
+                <a href="javascript:void(0);">passes:</a> <em>1</em>
+            </li>
+            <li class="failures">
+                <a href="javascript:void(0);">failures:</a> <em>0</em>
+            </li>
+            <li class="duration">
+                duration: <em>0.01</em>s
+            </li>
+        </ul>
+        <ul id="mocha-report">
+            <li class="suite">
+                <h1><a href="/My-Library/books/Front_End/M05_Third_Party_APIs/08-Algorithums2.html?grep=maxNum">maxNum</a></h1>
+                <ul>
+                    <li class="test pass fast">
+                        <h2>returns the largest number in a given array
+                            <span class="duration">1ms</span> 
+                            <a href="/My-Library/books/Front_End/M05_Third_Party_APIs/08-Algorithums2.html?grep=maxNum%20returns%20the%20largest%20number%20in%20a%20given%20array" class="replay">‣</a>
+                        </h2>
+                        <pre style="display: none;">
+                            <code>
+                                <span class="keyword">var</span> 
+                                arr = [
+                                <span class="number">2</span>, 
+                                <span class="number">3</span>,
+                                 -
+                                <span class="number">2</span>, 
+                                <span class="number">99</span>, 
+                                <span class="number">100</span>, 
+                                <span class="number">5000</span>, 
+                                <span class="number">321</span>];
+                                <span class="keyword">var</span> 
+                                result = maxNum(arr);
+                                expect(result).to.eql(
+                                <span class="number">5000</span>
+                                );
+                            </code>
+                        </pre>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script>
+        mocha.setup("bdd");
+    </script>
+    <script src="./script/algorithums/max.js"></script>
+    <script src="./script/algorithums/max1.js"></script>
+    <script>
+        mocha.run();
+    </script>
+  
+</body>
+</html>
